@@ -1,0 +1,75 @@
+.item-footer {
+  background-color: white; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.nombre {
+  color: white;
+  font-size: 40px; }
+
+/* pagina inicio */
+body {
+  font-size: 18px;
+  line-height: 23px;
+  font-family: Arial, sans-serif; }
+
+footer {
+  color: black; }
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+  font-size: 16px; }
+
+h2 {
+  font-size: 40px; }
+
+footer {
+  font-size: 18px; }
+
+p,
+footer {
+  font-family: Arial, sans-serif; }
+
+header {
+  background-color: #6f4295; }
+  header .logo {
+    margin-left: 8%; }
+
+.main1 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 80%;
+  color: black; }
+  .main1 h1, .main1 h2 {
+    font-size: 25px;
+    font-weight: bold; }
+  .main1 .imgIn {
+    width: 45%;
+    margin-top: 2%; }
+
+.prod {
+  margin-top: 3%;
+  width: 100%;
+  font-size: 15px; }
+  .prod h1, .prod h2 {
+    font-size: Arial, sans-serif;
+    font-weight: bold; }
+
+.img:hover {
+  transform: scale(1.2);
+  transition: all 1s; }
+
+.footer {
+  width: 100%;
+  padding: 10px;
+  border-top-style: solid;
+  border-color: black;
+  border-width: 1px; }
+
+.ig {
+  bottom: 30px;
+  width: 50px;
+  position: fixed;
+  right: 5%; }

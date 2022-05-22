@@ -1,0 +1,62 @@
+@import "variables";
+@import "colores";
+@import "estructura";
+@import "responsive";
+@mixin sizes($size, $font) {
+  font-family: $font;
+  font-size: $size;
+}
+@import "tipografia";
+
+header {
+  background-color: rgb(111, 66, 149);
+  .logo{
+    margin-left: 8%;
+  }
+  
+}
+
+.main1 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 80%;
+  color: $fuenteColor;
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .imgIn {
+    width: 45%;
+    margin-top: 2%;
+  }
+}
+
+.prod {
+  margin-top: 3%;
+  width: 100%;
+  font-size: 15px;
+  h1 {
+    font-size: $fuenteTitulos;
+    font-weight: bold;
+  }
+}
+
+.img:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.footer {
+  width: 100%;
+  padding: 10px;
+  border-top-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.ig {
+  bottom: 30px;
+  width: 50px;
+  position: fixed;
+  right: 5%;
+}

@@ -1,0 +1,8 @@
+$fondo: (
+  footer: white,
+);
+@each $item, $color in $fondo {
+  .item-#{$item} {
+    background-color: $color;
+  }
+}

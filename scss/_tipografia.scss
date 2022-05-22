@@ -1,0 +1,17 @@
+h1 {
+  @include sizes($sizeTitulos, $fuenteTitulos);
+}
+
+h2 {
+  @extend h1;
+  font-size: 40px;
+}
+
+footer {
+  font-size: 18px;
+}
+
+p,
+footer {
+  font-family: $fuenteParrafo;
+}
