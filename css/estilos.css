@@ -28,8 +28,8 @@ footer {
   .i2 {
     display: flex;
     justify-content: center; }
-  .logo {
-    width: 150%; }
+  .logo img {
+    width: 20%; }
   .ImgIn {
     width: 100%; }
   .ig {
@@ -42,8 +42,8 @@ footer {
   .i2 {
     display: flex;
     justify-content: center; }
-  .logo {
-    width: 150%; }
+  .logo img {
+    width: 20%; }
   .ImgIn {
     width: 100%; }
   .ig {
@@ -54,8 +54,8 @@ footer {
   .i2 {
     display: flex;
     justify-content: center; }
-  .logo {
-    width: 150%; }
+  .logo img {
+    width: 20%; }
   .ImgIn {
     width: 100%; }
   .ig {
@@ -67,8 +67,8 @@ footer {
   .i2 {
     display: flex;
     justify-content: center; }
-  .logo {
-    width: 150%; }
+  .logo img {
+    width: 20%; }
   .ImgIn {
     width: 100%; }
   .ig {
@@ -114,7 +114,7 @@ footer {
 header {
   background-color: #6f4295;
   width: 100%; }
-  header .logo {
+  header .logo img {
     margin-left: 8%; }
 
 .main1 {
