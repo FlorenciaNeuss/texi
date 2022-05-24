@@ -36,12 +36,10 @@
   .ImgIn {
     width: 100%;
   }
-  .ig {
-    margin: 10px;
-    position: fixed;
-  }
 }
-
+@media screen and (max-width: 840px) {
+ 
+}
 @media screen and (max-width: 600px) {
   .i2 {
     display: flex;
@@ -53,9 +51,9 @@
   .ImgIn {
     width: 100%;
   }
-  .ig {
+  /*   .ig {
     position: fixed;
-  }
+  } */
 }
 @media screen and (max-width: 580px) {
   .main1 {
@@ -71,10 +69,10 @@
   .ImgIn {
     width: 100%;
   }
-  .ig {
+  /*  .ig {
     display: block;
     z-index: 1;
-  }
+  } */
 }
 
 /* @media screen and (max-width: 585px) { 
@@ -94,11 +92,11 @@
   }
 } */
 
-@media screen and (max-width: 430px) {
+/* @media screen and (max-width: 430px) {
   .ig {
     display: block;
     position: fixed;
 
     z-index: 1;
   }
-}
+} */
