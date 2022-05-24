@@ -14,9 +14,6 @@
   .logo img {
     width: 20%;
   }
-  .ImgIn {
-    width: 100%;
-  }
   .ig {
     margin: auto;
     position: fixed;
@@ -33,28 +30,19 @@
   .logo img {
     width: 20%;
   }
-  .ImgIn {
-    width: 100%;
-  }
 }
-@media screen and (max-width: 840px) {
- 
-}
+
 @media screen and (max-width: 600px) {
   .i2 {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
   .logo img {
     width: 20%;
   }
-  .ImgIn {
-    width: 100%;
-  }
-  /*   .ig {
-    position: fixed;
-  } */
 }
+
 @media screen and (max-width: 580px) {
   .main1 {
     width: 80%;
@@ -66,37 +54,4 @@
   .logo img {
     width: 20%;
   }
-  .ImgIn {
-    width: 100%;
-  }
-  /*  .ig {
-    display: block;
-    z-index: 1;
-  } */
 }
-
-/* @media screen and (max-width: 585px) { 
-.i2 {
-    display: flex;
-    justify-content: center;
-  }
-
-.logo {
-    width: 150%;
-  }
-  .ImgIn {
-    width: 100%;
-  }
-  .ig {
-    position: fixed;
-  }
-} */
-
-/* @media screen and (max-width: 430px) {
-  .ig {
-    display: block;
-    position: fixed;
-
-    z-index: 1;
-  }
-} */
