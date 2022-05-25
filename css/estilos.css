@@ -18,16 +18,7 @@ body {
 footer {
   color: black; }
 
-@media screen and (max-width: 1900px) {
-  .i2 {
-    display: none; } }
-
 @media screen and (max-width: 1100px) {
-  .ii {
-    display: none; }
-  .i2 {
-    display: flex;
-    justify-content: center; }
   .logo img {
     width: 20%; }
   .ig {
@@ -35,28 +26,16 @@ footer {
     position: fixed; } }
 
 @media screen and (max-width: 1043px) {
-  .ii {
-    display: none; }
-  .i2 {
-    display: flex;
-    justify-content: center; }
   .logo img {
     width: 20%; } }
 
 @media screen and (max-width: 600px) {
-  .i2 {
-    display: flex;
-    justify-content: center;
-    width: 100%; }
   .logo img {
     width: 20%; } }
 
 @media screen and (max-width: 580px) {
   .main1 {
     width: 80%; }
-  .i2 {
-    display: flex;
-    justify-content: center; }
   .logo img {
     width: 30%; } }
 
@@ -86,10 +65,8 @@ header {
   width: 80%;
   color: black; }
   .main1 h1, .main1 h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold; }
-  .main1 .imgIn {
-    margin-top: 2%; }
 
 .prod {
   margin-top: 3%;
