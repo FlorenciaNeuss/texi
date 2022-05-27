@@ -1,5 +1,9 @@
 h1 {
   @include sizes($sizeTitulos, $fuenteTitulos);
+  color: rgb(111, 66, 149);
+}
+li {
+  @include sizes($sizeTitulos, $fuenteTitulos);
 }
 
 h2 {
